@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /
+  port: 8080
+spring:
+  application:
+    name: srpc-example
+simple:
+  rpc:
+    gateway-url: http://127.0.0.1
+    enable-proxy: true
+    proxy:
+      test: http://127.0.0.1:8080
